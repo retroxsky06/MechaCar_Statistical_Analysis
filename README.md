@@ -5,8 +5,6 @@ Module 15 Challenge
 
 ## Linear Regression to Predict MPG (d1
 
-![fig1](https://github.com/retroxsky06/MechaCar_Statistical_Analysis/blob/main/images/d1_linear_regression.png)
-
 ![fig2](https://github.com/retroxsky06/MechaCar_Statistical_Analysis/blob/main/images/d1_summary_pvalues_r2.png)
 
 ## Summary Statistics on Suspension Coils d2
