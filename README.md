@@ -7,6 +7,11 @@ Module 15 Challenge
 
 ![fig2](https://github.com/retroxsky06/MechaCar_Statistical_Analysis/blob/main/images/d1_summary_pvalues_r2.png)
 
+
+Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+Is the slope of the linear model considered to be zero? Why or why not?
+Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+
 ## Summary Statistics on Suspension Coils d2
 
 
