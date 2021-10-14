@@ -26,3 +26,19 @@ suspension_coil_df <- read.csv(file='Suspension_Coil.csv', check.names=F,strings
 total_summary <- suspension_coil_df %>% summarize(Mean=mean(PSI), Median=median(PSI), Variance=var(PSI), SD=sd(PSI))
 # Create lot summary dataframe
 lot_summary <- suspension_coil_df %>% group_by(Manufacturing_Lot) %>% summarize(Mean=mean(PSI), Median=median(PSI), Variance=var(PSI), SD=sd(PSI))
+
+# Deliverable 3 Challenge
+?t.test()
+# Determine if  PSI across all lots is different from pop. mean (1,500)
+t.test(log10(suspension_coil_df$PSI), mu=mean(log10(suspension_coil_df$PSI)))
+# Create 3 more RScripts using subset() to determine PSI
+# lot 1
+lot1 <- subset(suspension_coil_df, Manufacturing_Lot == "Lot1")
+t.test(log10(lot1$PSI),mu=mean(log10(suspension_coil_df$PSI)))
+#lot 2
+lot2 <- subset(suspension_coil_df, Manufacturing_Lot == "Lot2")
+t.test(log10(lot2$PSI), mu=mean(log10(suspension_coil_df$PSI)))
+# lot 3
+lot3 <- subset(suspension_coil_df, Manufacturing_Lot == "Lot3")
+t.test(log10(lot3$PSI), mu=mean(log10(suspension_coil_df$PSI)))
+
