@@ -57,7 +57,7 @@ t.test(log10(lot3$PSI), mu=mean(log10(suspension_coil_df$PSI)))
 - Manufacturing Lot 3: The p-value is 0.15; therefore, we cannot reject the null hypothesis.
 
 ## Study Design: MechaCar vs Competition 
-To quantify how the MechaCar may perform against the competition, further statistical analysis is needed. When consumers are looking to purchase a new vehicle, there are several criteria they may consider: aesthetics, cost, safety, functionality, performance, fuel economy, and technology, ultimately coalescing into how much satisfaction, enjoyment, and usefulness, they may obtain from the vehicle.  Economists use the term **utility** which is to describe "the pleasure or satisfaction that a consumer obtains from his or her consumption of goods and services." In this analysis, I would investigate the aformentioned criterias (metrics), excluding aesthetics, that would maximize consumer utility. 
+To quantify how the MechaCar may perform against the competition, further statistical analysis is needed. When consumers are looking to purchase a new vehicle, there are several criteria they may consider: aesthetics, cost, safety, functionality, performance, fuel economy, and technology [1](#1), ultimately coalescing into how much satisfaction, enjoyment, and usefulness, they may obtain from the vehicle.  Economists use the term **utility** which is to describe "the pleasure or satisfaction that a consumer obtains from his or her consumption of goods and services." In this analysis, I would investigate the aformentioned criterias (metrics), excluding aesthetics, that would maximize consumer utility. 
 
 #### Null and Alternate Hypothesis:
 
@@ -66,3 +66,10 @@ H1: MechaCar doe have high consumer utility and there is significant evidence th
 
 #### Testing
 For this analysis, multiple linear regressions and t-tests will be performed as they will be able to compare the various variables and observe if there are sgnificant differences between vehicles.  
+
+
+
+#### References
+<a id="1">[1]</a>
+Choksey, J. (2019, May 13). *The 7 Criteria for Car Buying.* https://www.autotrader.com/car-shopping/7-criteria-car-buying-281474979927978
+
