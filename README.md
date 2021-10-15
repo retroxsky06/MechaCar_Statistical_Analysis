@@ -32,7 +32,7 @@ In this portion of the analysis, t-tests were performed to determine if all manu
 #### T-test on all Manufacturing Lots
 ![fig5](https://github.com/retroxsky06/MechaCar_Statistical_Analysis/blob/main/images/d3_t_test.png)
 
-The t-test above showcases that the p-value is 1, which rejects the null hypothesis, and that the mean across all manufacturing lots is not statistically different from the population mean of 1,500 pounds per square inch.
+The t-test above showcases that the p-value is 1, meaning that across all manufacturing lots, it is not statistically different from the population mean of 1,500 pounds per square inch.
 
 Using the code below, t-tests were performed on the individual manufacturing lots:
 
