@@ -66,7 +66,7 @@ H0: MechaCar does not have high consumer utility and there is no significant evi
 H1: MechaCar doe have high consumer utility and there is significant evidence that it will perform well against the competition.
 
 #### Testing
-For this analysis, multiple linear regressions and t-tests will be performed as they will be able to compare the various variables and observe if there are sgnificant differences between vehicles.  
+For this analysis, multiple linear regressions and t-tests will be performed as they will be able to compare the various variables and observe if there are significant differences between vehicles.  
 
 
 
