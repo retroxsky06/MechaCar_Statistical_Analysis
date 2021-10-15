@@ -49,8 +49,13 @@ lot3 <- subset(suspension_coil_df, Manufacturing_Lot == "Lot3")
 t.test(log10(lot3$PSI), mu=mean(log10(suspension_coil_df$PSI)))
 ```
 
-### Results of Manufacturing Lots 1, 2, 3
-- 
+### Results of Manufacturing Lots 1, 2, 3 t-tests
 [3 Manufacturing Lot t-tests](https://github.com/retroxsky06/MechaCar_Statistical_Analysis/blob/main/images/d3_lot_t_tests.png)
+
+- Manufacturing Lot 1: The p-value is 9.35; therefore, we cannot reject the null hypothesis.
+- Manufacturing Lot 2: The p-value is 0.0005; thereforefore, we can reject the null hypothesis.
+- Manufacturing Lot 3: The p-value is 0.15; therefore, we cannot reject the null hypothesis.
+
+
 
 ## Study Design: MechaCar vs Competition d4
