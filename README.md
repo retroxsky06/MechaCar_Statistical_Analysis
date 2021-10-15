@@ -18,15 +18,21 @@ Utilizing a multiple linear regression model on the data set, [MechaCar.mpg.csv]
 
 #### Total Summary
 ![fig3](https://github.com/retroxsky06/MechaCar_Statistical_Analysis/blob/main/images/d2_total_summary.png)
+
 The design specifications of AutoRUs' MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Based on the summary dataframe above, the variance is 62, which complies with the design specifications.  However, it is necessary to further investigate the individual manufacturing lot to gain a better perspective.
 
 #### Manufacturing Lot Summary
 ![fig4](https://github.com/retroxsky06/MechaCar_Statistical_Analysis/blob/main/images/d2_lot_summary.png)
+
 After delving deeper into reviewing individual manufacturing lots, it can be observed in the above manufacturing lot summary dataframe that **Manufacturing Lot 3** variance is 170, exceeding the design specifications of 100 PSI.
 
 ## T-Tests on Suspension Coils d3
+In this portion of the analysis, t-tests were performed to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch.
 
 ![fig5](https://github.com/retroxsky06/MechaCar_Statistical_Analysis/blob/main/images/d3_t_test.png)
+
+
+
 
 [3 Manufacturing Lot t-tests](https://github.com/retroxsky06/MechaCar_Statistical_Analysis/blob/main/images/d3_lot_t_tests.png)
 
