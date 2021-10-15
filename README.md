@@ -73,6 +73,7 @@ For this analysis, multiple linear regressions and t-tests will be performed as 
 ### References
 <a id="1">[1]</a>
 Choksey, J. (2019, May 13). *The 7 Criteria for Car Buying.* https://www.autotrader.com/car-shopping/7-criteria-car-buying-281474979927978
-<a id="2">[1]</a>
+
+<a id="2">[2]</a>
 (2021). *Economics.* https://www.cliffsnotes.com/study-guides/economics/theory-of-the-consumer/utility-and-preferences
 
