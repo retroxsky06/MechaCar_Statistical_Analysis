@@ -27,7 +27,7 @@ The design specifications of AutoRUs' MechaCar suspension coils dictate that the
 After delving deeper into reviewing individual manufacturing lots, it can be observed in the above manufacturing lot summary dataframe that **Manufacturing Lot 3** variance is 170, exceeding the design specifications of 100 PSI.
 
 ## T-Tests on Suspension Coils
-In this portion of the analysis, t-tests were performed to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch.
+In this portion of the analysis, t-tests were performed to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch. **It was found that Manufactruing Lot 2 is statistically different from the population mean.**
 
 #### T-test on all Manufacturing Lots
 ![fig5](https://github.com/retroxsky06/MechaCar_Statistical_Analysis/blob/main/images/d3_t_test.png)
@@ -53,9 +53,16 @@ t.test(log10(lot3$PSI), mu=mean(log10(suspension_coil_df$PSI)))
 [3 Manufacturing Lot t-tests](https://github.com/retroxsky06/MechaCar_Statistical_Analysis/blob/main/images/d3_lot_t_tests.png)
 
 - Manufacturing Lot 1: The p-value is 9.35; therefore, we cannot reject the null hypothesis.
-- Manufacturing Lot 2: The p-value is 0.0005; thereforefore, we can reject the null hypothesis.
+- Manufacturing Lot 2: The p-value is 0.0005; thereforefore, **we can reject the null hypothesis.**
 - Manufacturing Lot 3: The p-value is 0.15; therefore, we cannot reject the null hypothesis.
 
+## Study Design: MechaCar vs Competition 
+To quantify how the MechaCar may perform against the competition, further statistical analysis is needed. When consumers are looking to purchase a new vehicle, there are several criteria they may consider: aesthetics, cost, safety, functionality, performance, fuel economy, and technology, ultimately coalescing into how much satisfaction, enjoyment, and usefulness, they may obtain from the vehicle.  Economists use the term **utility** which is to describe "the pleasure or satisfaction that a consumer obtains from his or her consumption of goods and services." In this analysis, I would investigate the aformentioned criterias (metrics), excluding aesthetics, that would maximize consumer utility. 
 
+#### Null and Alternate Hypothesis:
 
-## Study Design: MechaCar vs Competition d4
+H0: MechaCar does not have high consumer utility and there is no significant evidence that it will perform well against the competition.
+H1: MechaCar doe have high consumer utility and there is significant evidence that it will perform well against the competition.
+
+#### Testing
+For this analysis, multiple linear regressions and t-tests will be performed as they will be able to compare the various variables and observe if there are sgnificant differences between vehicles.  
