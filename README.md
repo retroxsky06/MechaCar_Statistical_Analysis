@@ -29,9 +29,13 @@ After delving deeper into reviewing individual manufacturing lots, it can be obs
 ## T-Tests on Suspension Coils
 In this portion of the analysis, t-tests were performed to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch.
 
+#### T-test on all Manufacturing Lots
 ![fig5](https://github.com/retroxsky06/MechaCar_Statistical_Analysis/blob/main/images/d3_t_test.png)
 
-```# Create 3 more RScripts using subset() to determine PSI
+The t-test above showcases that the p-value is 1, which rejects the null hypothesis, and that the mean across all manufacturing lots is not statistically different from the population mean of 1,500 pounds per square inch.
+
+```
+# Create 3 more RScripts using subset() to determine PSI
 # lot 1
 lot1 <- subset(suspension_coil_df, Manufacturing_Lot == "Lot1")
 t.test(log10(lot1$PSI),mu=mean(log10(suspension_coil_df$PSI)))
@@ -40,7 +44,8 @@ lot2 <- subset(suspension_coil_df, Manufacturing_Lot == "Lot2")
 t.test(log10(lot2$PSI), mu=mean(log10(suspension_coil_df$PSI)))
 # lot 3
 lot3 <- subset(suspension_coil_df, Manufacturing_Lot == "Lot3")
-t.test(log10(lot3$PSI), mu=mean(log10(suspension_coil_df$PSI)))```
+t.test(log10(lot3$PSI), mu=mean(log10(suspension_coil_df$PSI)))
+```
 
 [3 Manufacturing Lot t-tests](https://github.com/retroxsky06/MechaCar_Statistical_Analysis/blob/main/images/d3_lot_t_tests.png)
 
