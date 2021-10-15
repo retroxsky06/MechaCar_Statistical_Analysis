@@ -2,7 +2,7 @@
 Module 15 Challenge 
 
 ## Project Overview
-A fictional company "AutosRUs," is developing a vehicle prototype, MechaCar, but there are production issues that are blocking the manufacturing team's progress. The purpose of this project is to perform statistical analysis on vehicle production data to gain insights that may assist the manufacturing team. Summary statistics and t-tests were generated. R is utilized to conduct this analysis. 
+A fictional company "AutosRUs," is developing a vehicle prototype, MechaCar, but there are production issues that are blocking the manufacturing team's progress. The purpose of this project is to perform statistical analysis on vehicle production data to gain insights that may assist the manufacturing team. Multiple linear regressions and t-tests were performed. R is utilized to conduct this analysis. 
 
 ## Linear Regression to Predict MPG
 
