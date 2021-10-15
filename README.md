@@ -62,6 +62,7 @@ To quantify how the MechaCar may perform against the competition, further statis
 #### Null and Alternate Hypothesis:
 
 H0: MechaCar does not have high consumer utility and there is no significant evidence that it will perform well against the competition.
+
 H1: MechaCar doe have high consumer utility and there is significant evidence that it will perform well against the competition.
 
 #### Testing
