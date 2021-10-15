@@ -27,7 +27,7 @@ The design specifications of AutoRUs' MechaCar suspension coils dictate that the
 After delving deeper into reviewing individual manufacturing lots, it can be observed in the above manufacturing lot summary dataframe that **Manufacturing Lot 3** variance is 170, exceeding the design specifications of 100 PSI.
 
 ## T-Tests on Suspension Coils
-In this portion of the analysis, t-tests were performed to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch. **It was found that Manufactruing Lot 2 is statistically different from the population mean.**
+In this portion of the analysis, t-tests were performed to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch. **Based on the results, it was determined that Manufacturing Lot 2 is statistically different from the population mean.**
 
 #### T-test on all Manufacturing Lots
 ![fig5](https://github.com/retroxsky06/MechaCar_Statistical_Analysis/blob/main/images/d3_t_test.png)
