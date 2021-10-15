@@ -34,6 +34,8 @@ In this portion of the analysis, t-tests were performed to determine if all manu
 
 The t-test above showcases that the p-value is 1, which rejects the null hypothesis, and that the mean across all manufacturing lots is not statistically different from the population mean of 1,500 pounds per square inch.
 
+Using the code below, t-tests were performed on the individual manufacturing lots:
+
 ```
 # Create 3 more RScripts using subset() to determine PSI
 # lot 1
@@ -47,6 +49,8 @@ lot3 <- subset(suspension_coil_df, Manufacturing_Lot == "Lot3")
 t.test(log10(lot3$PSI), mu=mean(log10(suspension_coil_df$PSI)))
 ```
 
+### Results of Manufacturing Lots 1, 2, 3
+- 
 [3 Manufacturing Lot t-tests](https://github.com/retroxsky06/MechaCar_Statistical_Analysis/blob/main/images/d3_lot_t_tests.png)
 
 ## Study Design: MechaCar vs Competition d4
