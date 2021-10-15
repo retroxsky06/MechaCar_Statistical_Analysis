@@ -1,4 +1,4 @@
-# Vehicle Protoype Statistical Analysis in R
+# Vehicle Prototype Statistical Analysis in R
 Module 15 Challenge 
 
 ## Project Overview
@@ -8,10 +8,11 @@ A fictional company "AutosRUs," is developing a vehicle prototype, MechCar, but 
 
 ![fig2](https://github.com/retroxsky06/MechaCar_Statistical_Analysis/blob/main/images/d1_summary_pvalues_r2.png)
 
-
-Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
-Is the slope of the linear model considered to be zero? Why or why not?
-Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+Utilizing a multiple linear regression model on the data set, [MechaCar.mpg.csv](), the above output was given. The following conclusions can be made:
+- **Vehicle Length** and **Ground Clearance** coefficients provided a non-random amount of variance to mpg data.
+- The slope of the linear model is not to be considered zero as the coefficient values are not equal to 0.
+- The linear model predicts mpg of MechaCar prototypes effectively as the r-squared value is .07149, which means that **71%** of mpg predictions will be correct using this model.  
+- The **p-value is less than 0.05%**, which is statistically significant, resulting in rejecting the null hypothesis.
 
 ## Summary Statistics on Suspension Coils d2
 
