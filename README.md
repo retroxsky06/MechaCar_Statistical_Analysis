@@ -8,7 +8,7 @@ A fictional company "AutosRUs," is developing a vehicle prototype, MechaCar, but
 
 ![fig2](https://github.com/retroxsky06/MechaCar_Statistical_Analysis/blob/main/images/d1_summary_pvalues_r2.png)
 
-Utilizing a multiple linear regression model on the data set, [MechaCar.mpg.csv](), the above output was given. The following conclusions can be made:
+Utilizing a multiple linear regression model on the data set, [MechaCar.mpg.csv](https://github.com/retroxsky06/MechaCar_Statistical_Analysis/blob/main/MechaCar_mpg.csv), the above output was given. The following conclusions can be made:
 - **Vehicle Length** and **Ground Clearance** coefficients provided a non-random amount of variance to mpg data.
 - The slope of the linear model is not to be considered zero as the coefficient values are not equal to 0.
 - The linear model predicts mpg of MechaCar prototypes effectively as the r-squared value is .07149, which means that **71%** of mpg predictions will be correct using this model.  
